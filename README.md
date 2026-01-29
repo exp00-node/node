@@ -1,4 +1,6 @@
 ACCESS NODE
 
-Some records require external resolution.
-Integrity not guaranteed.
+Some records are unavailable.
+Integrity cannot be verified.
+
+Entry granted subject to internal review.
