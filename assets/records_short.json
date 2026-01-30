@@ -1,1 +1,61 @@
+{
+  "records": [
+    {
+      "id": "PERSISTENT_PRESENCE",
+      "key_hash": "PUT_HASH_HERE_EXP01",
+      "lines": [
+        "Multiple-stage recurrence reported across childhood and adulthood.",
+        "Third-party confirmations recorded without verified linkage."
+      ]
+    },
+    {
+      "id": "ABNORMAL_EXIT",
+      "key_hash": "PUT_HASH_HERE_EXP02",
+      "lines": [
+        "Camp evacuated through internal breach; dispersal pattern inconsistent with controlled exit.",
+        "Cause remains unconfirmed; reconstruction of sequence incomplete."
+      ]
+    },
+    {
+      "id": "NULL_RECORD",
+      "key_hash": "PUT_HASH_HERE_EXP03",
+      "lines": [
+        "Unidentified deceased subject; no registry match across available records.",
+        "Cipher-related material recovered; purpose and origin undetermined."
+      ]
+    },
+    {
+      "id": "FATAL_SIGNAL",
+      "key_hash": "PUT_HASH_HERE_EXP04",
+      "lines": [
+        "Distress transmission received; boarding resulted in total crew fatalities with no visible trauma.",
+        "Vessel destroyed before analysis; cause not verifiable."
+      ]
+    },
+    {
+      "id": "UNREGISTERED_PRESENCE",
+      "key_hash": "PUT_HASH_HERE_EXP05",
+      "lines": [
+        "Over-water visual event documented; non-reflective mass observed with irregular motion.",
+        "Secondary form detected only on later photographic review."
+      ]
+    },
+    {
+      "id": "NON_LINEAR_ROUTE",
+      "key_hash": "PUT_HASH_HERE_EXP06",
+      "lines": [
+        "Route completion time inconsistent with recorded distance and expected waypoints.",
+        "Unregistered vehicle observed prior to discontinuity; post-event tracking failed."
+      ]
+    },
+    {
+      "id": "LAST_CONTACT",
+      "key_hash": "PUT_HASH_HERE_EXP08",
+      "lines": [
+        "Live call maintained for ~47 minutes during active navigation; location data remained inconsistent.",
+        "Final utterance followed by abrupt termination; no trace recovered thereafter."
+      ]
+    }
+  ]
+}
 
