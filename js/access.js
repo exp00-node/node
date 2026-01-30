@@ -83,6 +83,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       const b = document.createElement("button");
       b.textContent = rec.id;
       b.onclick = () => {
+        // RESET ESTADO DE SEGURIDAD DEL EXPEDIENTE
+        recordFails = 0;
+        recordLocked = false;
+      
         panel.classList.remove("hidden");
         titleEl.textContent = rec.id;
         recordText.innerHTML = "";
