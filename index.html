@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>ACCESS NODE</title>
-<style>
-body {
-  background: #000;
-  color: #ccc;
-  font-family: monospace;
-  padding: 40px;
-}
-</style>
+  <meta charset="UTF-8" />
+  <title>ACCESS NODE</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<pre>
-ACCESS NODE
+  <main class="container">
+    <h1>ACCESS NODE</h1>
 
-Some records are unavailable.
-Further access may require local execution.
-</pre>
+    <div class="panel">
+      <label for="entry">Entry token</label>
+      <input id="entry" type="text" autocomplete="off" />
+      <button id="enter">VERIFY</button>
+      <p id="msg" class="msg"></p>
+    </div>
+  </main>
+
+  <script src="js/access.js"></script>
 </body>
 </html>
+
