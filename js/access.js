@@ -1,5 +1,5 @@
 // ====== CONFIG ======
-const ENTRY_HASH = "EXP00_NODE";
+const ENTRY_HASH = "81d980f56d888b032ff917aca9c38fb8b72ecd652690e3ac2ab31e0ee4a5fbd1";
 const LOCKOUT_MS = 10000;
 
 const ENTRY_MSGS = [
