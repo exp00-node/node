@@ -2,7 +2,7 @@
   "records": [
     {
       "id": "PERSISTENT_PRESENCE",
-      "key_hash": "c2503bf9475ce6f5486d15d872353817078a4948699e1afb07f7445e5efce162_EXP01",
+      "key_hash": "c2503bf9475ce6f5486d15d872353817078a4948699e1afb07f7445e5efce162",
       "lines": [
         "Multiple-stage recurrence reported across childhood and adulthood.",
         "Third-party confirmations recorded without verified linkage."
@@ -10,7 +10,7 @@
     },
     {
       "id": "ABNORMAL_EXIT",
-      "key_hash": "7333e6277a159c9a72a38942e8318ba6d9039548bc0713d1180002a2bf8fd51b_EXP02",
+      "key_hash": "7333e6277a159c9a72a38942e8318ba6d9039548bc0713d1180002a2bf8fd51b",
       "lines": [
         "Camp evacuated through internal breach; dispersal pattern inconsistent with controlled exit.",
         "Cause remains unconfirmed; reconstruction of sequence incomplete."
@@ -18,7 +18,7 @@
     },
     {
       "id": "NULL_RECORD",
-      "key_hash": "ab0c17ae0bf700055e40d100dab37972a1479e72e3ac68f852322767156a27d5_EXP03",
+      "key_hash": "ab0c17ae0bf700055e40d100dab37972a1479e72e3ac68f852322767156a27d5",
       "lines": [
         "Unidentified deceased subject; no registry match across available records.",
         "Cipher-related material recovered; purpose and origin undetermined."
@@ -26,7 +26,7 @@
     },
     {
       "id": "FATAL_SIGNAL",
-      "key_hash": "1cd411c1754c7511d97d8d6f954c854cb4b6375fc04d41cff897e361944d0f6d_EXP04",
+      "key_hash": "1cd411c1754c7511d97d8d6f954c854cb4b6375fc04d41cff897e361944d0f6d",
       "lines": [
         "Distress transmission received; boarding resulted in total crew fatalities with no visible trauma.",
         "Vessel destroyed before analysis; cause not verifiable."
@@ -34,7 +34,7 @@
     },
     {
       "id": "UNREGISTERED_PRESENCE",
-      "key_hash": "1eef72e609a48c2761da6590c947167ecbaba04a8eab59dff4c1faf1dad8d44d_EXP05",
+      "key_hash": "1eef72e609a48c2761da6590c947167ecbaba04a8eab59dff4c1faf1dad8d44d",
       "lines": [
         "Over-water visual event documented; non-reflective mass observed with irregular motion.",
         "Secondary form detected only on later photographic review."
@@ -42,7 +42,7 @@
     },
     {
       "id": "NON_LINEAR_ROUTE",
-      "key_hash": "2fe30764b494cf838b59ac8c3886fb2f84c93dbe103a7ca492f0f4fcb5b5e2e5_EXP06",
+      "key_hash": "2fe30764b494cf838b59ac8c3886fb2f84c93dbe103a7ca492f0f4fcb5b5e2e5",
       "lines": [
         "Route completion time inconsistent with recorded distance and expected waypoints.",
         "Unregistered vehicle observed prior to discontinuity; post-event tracking failed."
@@ -50,7 +50,7 @@
     },
     {
       "id": "LAST_CONTACT",
-      "key_hash": "d800bf64bd91def3e02c6dec518b3d6d3c01aaa60ac75a19ec8b1a4b1e5bc573_EXP08",
+      "key_hash": "d800bf64bd91def3e02c6dec518b3d6d3c01aaa60ac75a19ec8b1a4b1e5bc573",
       "lines": [
         "Live call maintained for ~47 minutes during active navigation; location data remained inconsistent.",
         "Final utterance followed by abrupt termination; no trace recovered thereafter."
