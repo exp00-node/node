@@ -1,1 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #e6e6e6;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  max-width: 640px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-weight: normal;
+  letter-spacing: 0.08em;
+}
+
+.panel {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #aaa;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  background: #111;
+  border: 1px solid #333;
+  color: #e6e6e6;
+  margin-bottom: 10px;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+button {
+  padding: 10px 14px;
+  background: #111;
+  border: 1px solid #444;
+  color: #e6e6e6;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.msg {
+  margin-top: 10px;
+  min-height: 1.2em;
+  color: #b0b0b0;
+}
+
+.list {
+  margin-top: 30px;
+  border: 1px solid #333;
+}
+
+.list button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #222;
+}
+
+.hidden {
+  display: none;
+}
+
+.record-text {
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 1px solid #333;
+  line-height: 1.6;
+}
 
