@@ -19,7 +19,11 @@ BORDER = "#2a2a2a"
 # Load JSON from repo
 # -----------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "data", "expedientes.json")
+DATA_DIR = os.path.join(BASE_DIR, "data")
+candidates = [f for f in os.listdir(DATA_DIR) if f.lower().endswith(".json")]
+if not candidates:
+    raise FileNotFoundError(f"No .json files found in: {DATA_DIR}")
+DATA_PATH = os.path.join(DATA_DIR, candidates[0])
 
 
 def load_vault():
@@ -64,15 +68,31 @@ def open_case_window(parent, node):
     def section(title, lines, height_hint=10):
         if not lines:
             return
+
         tk.Label(container, text=title, bg=BG, fg=FG,
-                 font=("Segoe UI", 12, "bold")).pack(anchor="w", pady=(8, 6))
+                font=("Segoe UI", 12, "bold")).pack(anchor="w", pady=(8, 6))
+
+        # Frame contenedor para texto + scroll
+        frame = tk.Frame(container, bg=ENTRY_BG)
+        frame.pack(fill="x", expand=False)
+
+        scrollbar = tk.Scrollbar(frame)
+        scrollbar.pack(side="right", fill="y")
+
         box = tk.Text(
-            container,
-            bg=ENTRY_BG, fg=FG, insertbackground=FG,
-            relief="flat", font=("Consolas", 11),
-            wrap="word", height=height_hint
+            frame,
+            bg=ENTRY_BG,
+            fg=FG,
+            insertbackground=FG,
+            relief="flat",
+            font=("Consolas", 11),
+            wrap="word",
+            height=height_hint,
+            yscrollcommand=scrollbar.set
         )
-        box.pack(fill="x", expand=False)
+        box.pack(side="left", fill="both", expand=True)
+
+        scrollbar.config(command=box.yview)
 
         # lines can be list[str] or single str
         if isinstance(lines, str):
@@ -174,6 +194,12 @@ def open_vault_window(parent):
     key_entry.pack(anchor="w", pady=(8, 12), ipady=6)
     key_entry.focus_set()
 
+    def on_select(event=None):
+        # limpia la key al cambiar de nodo
+        key_var.set("")
+        # mantiene el foco en el campo para pegar rápido
+        key_entry.focus_set()
+
     tk.Label(
         right,
         text="Tip: key == node id\nExample: EXP06.NON_LINEAR_ROUTE",
@@ -204,6 +230,9 @@ def open_vault_window(parent):
             return
 
         open_case_window(vault, node)
+        
+        key_var.set("")
+        key_entry.focus_set()
 
     tk.Button(
         right,
@@ -217,6 +246,7 @@ def open_vault_window(parent):
     ).pack(anchor="w", pady=(0, 8))
 
     listbox.bind("<Double-Button-1>", open_node)
+    listbox.bind("<<ListboxSelect>>", on_select)
     vault.bind("<Return>", open_node)
 
     if NODES:
