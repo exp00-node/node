@@ -9,14 +9,17 @@ It is an extension of the record.
 Two access layers exist.
 
 
-LAYER I — Surface Records
+LAYER I — SURFACE RECORDS
 
 For general access.
 
 A simplified web interface containing partial files and reduced documentation.
 
-If you are not familiar with GitHub,
+If you are not familiar with GitHub or cannot run Python locally,
 use the Surface Access link below.
+
+Surface Access:
+https://exp00-node.github.io/node/
 
 
 LAYER II — NODE VAULT
@@ -26,15 +29,6 @@ For extended access.
 A local executable containing expanded records,
 classified entries and additional documentation.
 
-Some files require individual access keys.
-
-
-ACCESS PROTOCOL
-
-Surface Access:
-(https://exp00-node.github.io/node/)
-
-Vault Access:
 Clone the repository and execute:
 
 python Archivos_Secretos.py
