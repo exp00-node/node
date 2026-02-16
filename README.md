@@ -32,7 +32,7 @@ Some files require individual access keys.
 ACCESS PROTOCOL
 
 Surface Access:
-[Insert GitHub Pages link here]
+(https://exp00-node.github.io/node/)
 
 Vault Access:
 Clone the repository and execute:
