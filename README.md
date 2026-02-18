@@ -1,6 +1,3 @@
-EXP00.NODE
-Access Repository
-
 This repository is part of a conceptual and immersive release.
 
 It is not promotional material.
@@ -40,7 +37,7 @@ The first key has always been visible.
 
 NOTES
 
-Each classified file corresponds to a track title.
+Each classified file corresponds to a...
 Access keys follow the same structure.
 
 Some records remain incomplete.
